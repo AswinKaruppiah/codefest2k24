@@ -1,0 +1,15 @@
+.Fullvideo {
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Fullvideo .video {
+  width: 80%;
+}
+@media (max-width: 601px) and (min-width: 350px) {
+  .Fullvideo .video {
+    width: 100%;
+  }
+}

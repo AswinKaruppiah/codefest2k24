@@ -1,0 +1,64 @@
+.workshop {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  padding: 2%;
+}
+
+.abt-workshop {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 3%;
+  justify-content: center;
+  align-items: center;
+}
+.abt-workshop .event-abt h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  letter-spacing: 2px;
+}
+.abt-workshop .event-abt p {
+  text-align: justify;
+  padding: 0 4% 4% 4%;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.8rem;
+}
+.workshopimg {
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+@media (max-width: 601px) and (min-width: 350px) {
+  .abt-workshop {
+    grid-template-columns: 1fr;
+    padding-bottom: 0;
+  }
+
+  .abt-workshop .event-abt h1 {
+    font-size: 2rem;
+  }
+  .abt-workshop .event-abt p {
+    padding: 0;
+    font-size: 1rem;
+  }
+}
+
+/* xl */
+@media (max-width: 1000px) and (min-width: 600px) {
+  .abt-workshop {
+    grid-template-columns: 1fr;
+  }
+
+  .abt-workshop .event-abt h1 {
+    font-size: 3rem;
+  }
+  .abt-workshop .event-abt p {
+    padding: 0;
+    font-size: 1.2rem;
+  }
+}
